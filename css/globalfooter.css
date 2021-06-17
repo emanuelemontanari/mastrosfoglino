@@ -1,0 +1,166 @@
+input,
+textarea,
+select,
+a {
+  outline: none !important;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+select {
+  width: 100%;
+  text-transform: none;
+}
+
+.footer-content {
+  display: block;
+  font-family: "Roboto", "SF Pro Icons", sans-serif;
+  letter-spacing: 0;
+  padding: 20px 20px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+@media only screen and (max-width: 374px) {
+  .footer-content {
+    display: none;
+    padding: 15px 15px;
+  }
+}
+
+.footer-content.mobile {
+  display: none;
+  font-family: "Roboto", "SF Pro Icons", sans-serif;
+  text-align: center;
+  letter-spacing: 0;
+  padding: 20px 20px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+@media only screen and (max-width: 374px) {
+  .footer-content.mobile {
+    display: block;
+  }
+}
+
+/* SECTION BREADCRUMB */
+
+.breadcrumb-content {
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.breadcrumb-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.breadcrumb-list li {
+  font-family: "Roboto", "SF Pro Icons", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.40;
+  letter-spacing: 0;
+}
+
+.breadcrumb-item a:hover {
+  text-decoration: underline
+}
+
+.breadcrumb-item.active {
+  color: #595959;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  display: inline-block;
+  font-family: "Roboto", "SF Pro Icons", sans-serif;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 1.25;
+  letter-spacing: 0;
+  vertical-align: middle;
+  content: "";
+  color: #595959;
+  padding: 0 10px;
+}
+
+/* SECTION BREADCRUMB */
+
+.footer-credits {
+  display: inline-block;
+  position: relative;
+  font-family: "Roboto", "SF Pro Icons", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.40;
+  letter-spacing: 0;
+  text-decoration: none;
+  color: #595959;
+  text-align: left;
+  opacity: 1;
+}
+
+@media only screen and (max-width: 374px) {
+  .mobile .footer-credits {
+    text-align: center;
+    padding-bottom: 5px;
+}
+}
+
+.footer-switch-lang {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  width: auto;
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  .mobile .footer-switch-lang {
+    margin-right: 20px;
+}
+}
+
+@media only screen and (max-width: 374px) {
+  .mobile .footer-switch-lang {
+    position: relative;
+    margin-left: 20px;
+}
+}
+
+.switch-lang-button {
+  display: Inline-block;
+    border: 0;
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+  cursor: pointer;
+}
+
+.switch-lang-button {
+  display: block;
+  font-family: "Roboto", "SF Pro Icons", sans-serif;
+  font-size: 12.5px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0;
+  text-overflow: ellipsis;
+  color: #595959;
+  box-sizing: border-box;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+.switch-lang-button:hover {
+  color: #1d1d1d;
+  text-decoration: underline;
+}
